@@ -9,22 +9,28 @@ create your own!
 
 > these are necessary for basic usability
 
-- [ ] As a ... I want to ... so that ...
-  - _Given [context] when [a specific action is performed] then [a set of
-    consequences should occur]_
+### index.html
+
+- [ ] As a user I can see logo on top-left corner a main section
+- There is distinct title below the navbar
+
+- [ ] s a user, I can use the navbar to navigate to different pages
+- There is a suitable navbar of links with the name of the pages
+
+- [ ] As a user, I want to see the footer with social media links.
 
 ## Should-Haves
 
 > these will complete the user experience, but are not necessary
 
-- [ ] As a ... I want to ... so that ...
-  - _Given [context] when [a specific action is performed] then [a set of
-    consequences should occur]_
+### index.html
+
+- [ ] As a user I can see different projects with description.
 
 ## Could-Haves
 
 > would be really cool ... if there's time
 
-- [ ] As a ... I want to ... so that ...
-  - _Given [context] when [a specific action is performed] then [a set of
-    consequences should occur]_
+### index.html
+
+- [ ] As a user I can see different images with the project description.

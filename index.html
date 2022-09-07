@@ -4,9 +4,153 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="./client/assets/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>project!</title>
-
-    <link href="./styles/index.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Jane Doe's</title>
   </head>
-  <body></body>
+
+  <body>
+    <!--Navbar-->
+    <!-- Navbar-->
+    <div class="navbar">
+      <div class="container flex">
+        <a href="index.html">
+          <img src="./public/janedoe-logo.png" alt="Logo"
+        /></a>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <!--Navbar end-->
+
+    <!--Main section-->
+    <section class="main-section">
+      <div class="row">
+        <div class="column">
+          <h1>Hi There!</h1>
+          <br />
+          <p>
+            I am Jane, an experienced IU/UX designer based in Belgium. I design
+            websites, apps, digital products, and brand identities.
+          </p>
+          <p>
+            I would be glad to help you with my expertise. If you like my site,
+            don't hesitate to reach out! :)
+          </p>
+          <br />
+          <a href="#" class="btn-outline">Let's talk</a>
+        </div>
+        <div class="column">
+          <img src="./public/jane-image.jpg" alt="Jane Doe" />
+        </div>
+      </div>
+    </section>
+    <!--Main section end-->
+
+    <!--Project Section-->
+    <section class="project-section">
+      <div class="project-text">
+        <h1>Project</h1>
+        <p>
+          I design a number of digital projects for companies and individuals to
+          build their fresh, impressive, and classy new perspectives. Here are
+          some of the work I've done.
+        </p>
+      </div>
+      <div class="project-grid">
+        <div class="project-1">
+          <img src="./public/image-2.jpg" alt="project-1" />
+        </div>
+        <div class="project-2">
+          <img src="./public/image-3.jpg" alt="project-2" />
+        </div>
+        <div class="project-3">
+          <img src="./public/image-5.jpg" alt="project-3" />
+        </div>
+      </div>
+      <div class="project-grid">
+        <div class="project-4">
+          <img src="./public/image-1.jpg" alt="project-1" />
+        </div>
+        <div class="project-5">
+          <img src="./public/image-4.jpg" alt="project-2" />
+        </div>
+        <div class="project-6">
+          <img src="./public/image-6.jpg" alt="project-3" />
+        </div>
+      </div>
+    </section>
+
+    <!--Project end-->
+
+    <!--Contact start-->
+    <section class="contact-section">
+      <div class="contact-grid">
+        <div class="contact-text">
+          <h1>Contact</h1>
+          <br />
+          <p>
+            Do you need an interesting website with a beautiful design? Feel
+            free to contact me!
+          </p>
+        </div>
+
+        <div class="contact-form">
+          <form id="my-form">
+            <h2>Drop your contact here</h2>
+            <div class="form-control">
+              <input type="text" name="name" placeholder="Name" required />
+            </div>
+            <div class="form-control">
+              <input
+                type="text"
+                name="company"
+                placeholder="Company Name"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <input type="email" name="email" placeholder="Email" required />
+            </div>
+          </form>
+          <button
+            form="my-form"
+            value="Submit"
+            class="btn-outline"
+            type="submit"
+          >
+            Submit
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!--Contact end-->
+
+    <!--footer start-->
+    <div class="navbar">
+      <div class="container flex">
+        <p class="logo">janedoe@2022</p>
+        <nav>
+          <ul>
+            <li><a href="#">Github</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <!--Footer end-->
+  </body>
 </html>
